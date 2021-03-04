@@ -1,4 +1,4 @@
-import './App.css';
+import "./global.css";
 import Login from './pages/Login';
 
 function App() {

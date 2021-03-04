@@ -5,7 +5,7 @@
   --color-secundary-lighter: #f9a826;
   --color-secundary-dark: #f48400;
   --color-primary-lighter: #6aa8ca;
-  --color-primary-dark: #1d3292;
+  --color-primary-dark: #0089ef;
   --color-line-in-grey: #c4c4c4;
 }
 
@@ -16,12 +16,14 @@
   box-sizing: border-box;
 }
 
-hmtl, body, #root {
+html, body, #root {
   min-height: 100%;
 }
 
 body {
   background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
 }
 
 body, input, button {
