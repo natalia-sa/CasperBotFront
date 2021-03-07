@@ -29,3 +29,18 @@ body {
 body, input, button {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+button {
+  cursor: pointer;
+}
+
+.yellow-button {
+  background-color: var(--color-secundary-lighter);
+  color: #FFFFFF;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+.yellow-button:hover {
+  background-color: var(--color-secundary-dark);
+}

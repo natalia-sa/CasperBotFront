@@ -29,7 +29,7 @@ export default function Login({ history }) {
                     value={pin} 
                     onChange={event => setPin(event.target.value) }>
                 </input>
-                <button onClick={handleSubmit}type="submit">login</button>
+                <button className="yellow-button" onClick={handleSubmit}type="submit">login</button>
                
                 
             </div>
